@@ -1,6 +1,6 @@
 function isValidEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}
+}//a@12.ca
 
 // function isValidPhone(phone) {
 
