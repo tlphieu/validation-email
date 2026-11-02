@@ -1,12 +1,14 @@
 function isValidEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}//a@12.ca
+}//a@12.can regex
 
-function isValidPhone(phone) {
 
-    return /^0[35789][0-9]{8}$/.test(phone);
 
-}
+// function isValidPhone(phone) {
+
+//     return /^0[35789][0-9]{8}$/.test(phone);
+
+// }
 module.exports = { isValidEmail };
 
 // isValidPhone("0912345678"); // true
