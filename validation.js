@@ -7,7 +7,9 @@ function isValidPhone(phone) {
 
     return /^0[35789][0-9]{8}$/.test(phone);
 
-}
+}//comment 
+
+
 module.exports = { isValidEmail };
 
 // isValidPhone("0912345678"); // true
